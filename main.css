@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+#main{
+    height: auto; 
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+#header{
+    width: 100%;
+}
+#logo{
+    width: 50%;
+    float: left;
+    padding: 3px;
+    color: honeydew;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    float: right;
+    background: #006699
+}
+
+.menu ul{
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu ul li{
+    height: 100%;
+    padding: 30px 0 0 0;
+    list-style: none;
+    float: right;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #ccc;
+    color: #fff;
+}
+
+    
+
+.uno{
+    text-align: center;
+    width:32%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.dos{
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.knowmore{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #006699;
+    padding: 3px 9px 3px 9px;
+    margin: 3px;
+}
+
+.knowmore:hover{
+    background: #006699;
+    color: #fff;
+    transition: 0.5s
+}
+
+#info{
+    width: 100%;
+    height: auto; overflow: hidden;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    
+}
+
+#izq{
+    width: 55%;
+    height: auto; overflow: hidden;
+    border: 0px solid #000;
+    float: left;
+    padding: 5px;
+}
+
+#der{
+    width: 40%;
+    height: auto;
+    border: 0px solid #000;
+    align-self: center;
+    float: right;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+
+.box1 {
+    background: green;
+}
+
+.box2 {
+    background: #ff6348;
+}
+
+.box3 {
+    background: #ff7f50;
+}
+
+.box4 {
+    background: #ff4757;
+}
+
+.box5 {
+    background: #f1c40f;
+}
+
+.box6 {
+    background: #e67e22;
+}
+
+.box7 {
+    background: #2ed573;
+}
+
+.box8 {
+    background: #1e90ff;
+}
+
+.box9 {
+    background: #c56cf0;
+}
+
+.box10 {
+    background: #18dcff;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 3000px;
+    height: auto;
+    align-self: center;
+}
+/*boxes with the logos and descriptions of the sections*/
+.categories {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    float: "center";
+
+}
+/*the contents of the descriptions*/
+.descriptions {
+    color: black;
+    padding: 15px;
+    width: auto;
+    text-align: center;
+}
+
+.box{
+    width: 33.3%;
+    color: white;
+    padding: 5px;
+}
